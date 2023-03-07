@@ -1,0 +1,39 @@
+.lmj-sales {
+    color: white;
+    border : 1px solid white;
+    border-radius: 8px;
+    background-color: black;
+}
+
+
+
+.cm-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cm-categories-container {
+    list-style: none;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.cm-categories-item {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cm-categories-item:hover {
+    background-color: white;
+    color: black;
+}
